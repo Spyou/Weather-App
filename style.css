@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Oswald&family=Poppins:wght@100&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #222;
+  background-image: url('/images/weather-bg.avif');
+  background-size: cover;
+  font-size: 120%;
+}
+
+.card {
+  background: var(--primary-color);
+  color: black;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 300px;
+  margin: 1em;
+  box-shadow: 0px 155px 62px rgba(0, 0, 0, 0.01), 0px 87px 52px rgba(0, 0, 0, 0.05), 0px 39px 39px rgba(0, 0, 0, 0.09), 0px 10px 21px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: #ffffff3b;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 24px;
+  background: #ffffff3b;
+  color: black;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 100px);
+}
+
+.search img {
+  width: 17px;
+}
+
+.weather-icon {
+  height: 70px;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 115px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.temp {
+  align-items: center;
+  text-align: center;
+}
+
+.city {
+  align-items: center;
+  text-align: center;
+  margin-top: -20px;
+}
+.humidity{
+  font-weight: 400;
+}
+
+.wind{
+  font-weight: 400;
+  margin-top: 15px;
+}
+.weather{
+  display: none;
+}
+
+button:hover {
+  background-color: #dddddd67;
+}
+
+.error{
+  font-size: 13px;
+  display: none;
+  color: #d60000;
+}
