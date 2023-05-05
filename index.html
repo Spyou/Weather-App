@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="enter your city name" spellcheck="false">
+            <button><img src="/images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Opps! City does not exist.</p>
+        </div>
+        <div class="weather">
+            <img src="/images/cloudy.png" class="weather-icon">
+            <h1 class="temp">29°c</h1>
+            <h2 class="city">Mumbai</h2>
+            <div class="humidity">Humidity: 55%</div>
+            <div class="wind">Wind: 20 km/h</div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
