@@ -24,7 +24,7 @@ async function checkWeather(city){
       "Wind speed: " + speed + " km/h";
 
       switch(data.weather[0].main){
-        case "clouds":
+        case "Clouds":
           weatherIcon.src = "./images/cloudy.png";
           break;
         case "Clear":
